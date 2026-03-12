@@ -824,9 +824,7 @@ function InvoicePage({ order, onBack }) {
                   padding: "6px 12px"
                 }}
               />
-              <div className="text-muted text-sm" style={{ marginTop: 6, paddingLeft: 4 }}>
-                WINXINTBD.SHOP
-              </div>
+              
             </div>
             <div style={{ textAlign: "right" }}>
               <div style={{ fontSize: 36, fontWeight: 900, color: "var(--g3)", letterSpacing: 3 }}>INVOICE</div>
