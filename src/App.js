@@ -218,10 +218,6 @@ const statusBadge = (s) => {
   const map = { Pending: "badge-orange", Processing: "badge-blue", Shipped: "badge-purple", Delivered: "badge-green", Cancelled: "badge-red" };
   return <span className={`badge ${map[s] || "badge-gray"}`}>{s}</span>;
 };
-const deliveryBadge = (s) => {
-  const map = { Pending: "badge-gray", Packed: "badge-orange", Dispatched: "badge-blue", Delivered: "badge-green" };
-  return <span className={`badge ${map[s] || "badge-gray"}`}>{s}</span>;
-};
 
 // ─── APP ────────────────────────────────────────────────────────────────────────
 export default function App() {
