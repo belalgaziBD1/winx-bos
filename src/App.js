@@ -816,10 +816,10 @@ function InvoicePage({ order, onBack }) {
                 src={WINX_LOGO}
                 alt="WinX International"
                 style={{
-                  height: 120,
+                  height: 140,
                   width: "auto",
                   objectFit: "contain",
-                  backgroundColor: "#fff",
+                  backgroundColor: "#FFFFFF",
                   borderRadius: 8,
                   padding: "6px 12px"
                 }}
@@ -827,7 +827,7 @@ function InvoicePage({ order, onBack }) {
             </div>
             <div style={{ textAlign: "right" }}>
               <div style={{ fontSize: 36, fontWeight: 900, color: "var(--g3)", letterSpacing: 3 }}>INVOICE</div>
-              <div style={{ color: "var(--muted)", fontSize: 13 }}>WINXINTBD.SHOP</div>
+              <div style={{ color: "var(--muted)", fontSize: 13 }}>winxintbd.shop</div>
             </div>
           </div>
 
@@ -850,7 +850,7 @@ function InvoicePage({ order, onBack }) {
             <thead>
               <tr style={{ background: "var(--g3)" }}>
                 {["NO","DESCRIPTION","QTY","PRICE","TOTAL"].map(h => (
-                  <th key={h} style={{ padding: "10px 14px", color: "#fff", fontWeight: 700, fontSize: 12, textAlign: h === "TOTAL" || h === "PRICE" || h === "QTY" ? "right" : "left", border: "none" }}>{h}</th>
+                  <th key={h} style={{ padding: "10px 14px", color: "#000", fontWeight: 700, fontSize: 12, textAlign: h === "TOTAL" || h === "PRICE" || h === "QTY" ? "right" : "left", border: "none" }}>{h}</th>
                 ))}
               </tr>
             </thead>
