@@ -817,7 +817,7 @@ function InvoicePage({ order, onBack }) {
                 src={WINX_LOGO}
                 alt="WinX International"
                 style={{
-                  height: 120,
+                  height: 100,
                   width: "auto",
                   objectFit: "contain",
                   display: "block"
